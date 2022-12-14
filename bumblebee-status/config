@@ -1,0 +1,12 @@
+[core]
+modules = spotify,sensors2,indicator,weather,pulseout,pulsein,disk,bluetooth,network,battery,datetime,caffeine,layout,system
+theme = greyish-powerline
+
+[module-parameters]
+sensors2.showtemp = false
+sensors2.showfan = false
+weather.location = Cyberjaya 
+weather.apikey=a1b3e34093d5dcfd525821a4b8678bc4 
+datetime.format=%a, %b %d %Y %H:%M 
+pulsein.right-click="pavucontrol"
+pulseout.right-click="pavucontrol"
